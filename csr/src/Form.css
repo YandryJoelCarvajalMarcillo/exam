@@ -1,0 +1,10 @@
+/* form > div {
+  display: flex;
+  flex-direction: column;
+} */
+
+#btn__eliminar_libro {
+  background-color: red;
+  border: none;
+  border-radius: 5px;
+}

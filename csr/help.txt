@@ -1,0 +1,34 @@
+Paquetes necesarios:
+  npm i react-router-dom
+  npm i axios
+
+Importaciones:
+  import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
+
+Configuración de las rutas:
+  <Router>
+    <Routes>
+      <Route path='/' element={ <Crud /> }></Route>
+    </Routes>
+  </Router>
+
+Datos del libro:
+  id: ,
+  nombre: ,
+  autor: ,
+  categoria: ,
+  nPaginas: 
+
+Ejecutar una función al inicio y una única vez:
+  useEffect(() => {}, [])
+
+Formas de actualizar un array:
+  setLibros(librosActualizados)
+  setLibros([...libros, nuevoLibro])
+
+Métodos de array:
+  filter, push y map
+
+Estados:
+  onClick={editarLibro}
+  onChange={({target}) => setNombreLibro(target.value)}

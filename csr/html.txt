@@ -1,0 +1,61 @@
+<>
+  <form>
+    <div>
+      <label htmlFor="sdn">SDN</label>
+      <input type="text" id="sdn"/>
+    </div>
+    <div>
+      <label htmlFor="nombre">Nombre</label>
+      <input type="text" id="nombre"/>
+    </div>
+    <div>
+      <label htmlFor="autor">Autor</label>
+      <input type="text" id="autor"/>
+    </div>
+    <div>
+      <label htmlFor="categoria">Categoría</label>
+      <input type="text" id="categoria"/>
+    </div>
+    <div>
+      <label htmlFor="nPaginas">Número de Páginas</label>
+      <input type="text" id="nPaginas"/>
+    </div>
+    <div>
+      <input
+        type="button"
+        id="btn__crear_libro"
+        value="Crear Libro"
+      />
+      <input
+        type="button"
+        id="btn__editar_libro"
+        value="Editar Libro"
+      />
+      <input
+        type="button"
+        id="btn__eliminar_libro"
+        value="Eliminar Libro"
+      />
+    </div>
+  </form>
+  <table>
+    <thead>
+      <tr>
+        <th>SND</th>
+        <th>Nombre</th>
+        <th>Autor</th>
+        <th>Categoría</th>
+        <th># de páginas</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>0001</td>
+        <td>Harry Potter</td>
+        <td>J.K. Rowling</td>
+        <td>Fantasía</td>
+        <td>100</td>
+      </tr>
+    </tbody>
+  </table>
+</>

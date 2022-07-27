@@ -1,0 +1,12 @@
+Instalar modulos:
+  npm i express
+  npm i -D nodemon
+  npm i cors
+
+Configurar los scripts del package.json
+  "start": "node index.js",
+  "dev": "nodemon index.js"
+
+Crear el archivo index.js en el directorio
+
+Programar la api xd
